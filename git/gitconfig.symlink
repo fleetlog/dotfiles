@@ -10,7 +10,7 @@
         email = spikee1@gmail.com
         #helper = /opt/boxen/bin/boxen-git-credential
         # FIXME: You'll want the `helper` line below; delete the one above.
-        # helper = osxkeychain
+        helper = osxkeychain
 [alias]
         co = checkout
         promote = !$ZSH/bin/git-promote
@@ -23,9 +23,9 @@
         branch = auto
         ui = true
 [core]
-        excludesfile = /opt/boxen/config/git/gitignore
+        #excludesfile = /opt/boxen/config/git/gitignore
         # FIXME: You'll want the `excludesfile` line below; delete the one above.
-        # excludesfile = ~/.gitignore
+        excludesfile = ~/.gitignore
         editor = vim
 [apply]
         whitespace = nowarn
