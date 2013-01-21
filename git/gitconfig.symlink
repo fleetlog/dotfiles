@@ -7,7 +7,7 @@
         protocol = https
 [user]
         name = Martin Petercak
-        email = spikee1@gmail.com
+        email = petercak@soferuj.sk
         #helper = /opt/boxen/bin/boxen-git-credential
         # FIXME: You'll want the `helper` line below; delete the one above.
         helper = osxkeychain
